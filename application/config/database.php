@@ -75,10 +75,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => 'root',
-	'password' => '',
-	'database' => 'bdo',
+	'hostname' => 'localhost:3306',
+	'username' => 'u1721015_delza',
+	'password' => '159357delza50',
+	'database' => 'u1721015_BDO',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
