@@ -1,0 +1,17 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/u1721015/public_html/
+    - /bin/cp index.php $DEPLOYPATH
+    - /bin/cp -r application $DEPLOYPATH
+    - /bin/cp -r app-assets $DEPLOYPATH
+    - /bin/cp -r assets $DEPLOYPATH
+    - /bin/cp -r css $DEPLOYPATH
+    - /bin/cp -r system $DEPLOYPATH
+    - /bin/cp -r uploads $DEPLOYPATH
+    - /bin/cp -r user_guide $DEPLOYPATH
+    - /bin/cp -r vendor $DEPLOYPATH
+    - /bin/cp composer.json $DEPLOYPATH
+    - /bin/cp composer.lock $DEPLOYPATH
+    - /bin/cp contributung.md $DEPLOYPATH
+    - /bin/cp license.txt $DEPLOYPATH

@@ -1,0 +1,13 @@
+.wrapper {
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.content {
+    width: auto;
+    white-space: nowrap;
+}
+
+.item {
+    display: inline-block;
+}

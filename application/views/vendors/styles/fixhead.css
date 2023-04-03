@@ -1,0 +1,39 @@
+	#tableFixHead {
+		overflow: auto;
+		height: 1000px;
+	}
+
+	#tableFixHead thead th {
+		position: sticky;
+		top: 0;
+		z-index: 1;
+		text-align: center;
+		background-color: #EEEEEE;
+		font-size: 22px;
+		vertical-align: middle;
+	}
+
+	#tableFixHead tbody th {
+		text-align: center;
+	}
+
+	#tableFixHead tbody tr td {
+		text-align: center;
+		font-size: 18px;
+	}
+
+	/* Just common table stuff. Really. */
+	table {
+		border-collapse: collapse;
+		width: 100%;
+		zoom: 75%;
+	}
+
+	th,
+	td {
+		padding: 8px 16px;
+	}
+
+	th {
+		background: #eee;
+	}
