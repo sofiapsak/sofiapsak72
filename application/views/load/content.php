@@ -414,7 +414,7 @@
                           $total - null;
                           foreach($monthrev_jan as $d){ 
                             $value = $d->jan;
-                            $total = $value;
+                            $total += $value;
                             $angka_format = number_format($total,0,",",".");
                             echo "<tr><td>".$no++."</td>";
                             echo "<td style='text-align:center;'>Januari</td>";
@@ -426,7 +426,7 @@
                           $total - null;
                           foreach($monthrev_feb as $d){ 
                             $value = $d->feb;
-                            $total = $value;
+                            $total += $value;
                             $angka_format = number_format($total,0,",",".");
                             echo "<tr><td>".$no++."</td>";
                             echo "<td style='text-align:center;'>Februari</td>";
@@ -438,7 +438,7 @@
                           $total - null;
                           foreach($monthrev_mar as $d){ 
                             $value = $d->mar;
-                            $total = $value;
+                            $total += $value;
                             $angka_format = number_format($total,0,",",".");
                             echo "<tr><td>".$no++."</td>";
                             echo "<td style='text-align:center;'>March</td>";
@@ -450,7 +450,7 @@
                           $total - null;
                           foreach($monthrev_apr as $d){ 
                             $value = $d->apr;
-                            $total = $value;
+                            $total += $value;
                             $angka_format = number_format($total,0,",",".");
                             echo "<tr><td>".$no++."</td>";
                             echo "<td style='text-align:center;'>April</td>";
@@ -462,7 +462,7 @@
                           $total - null;
                           foreach($monthrev_mei as $d){ 
                             $value = $d->mei;
-                            $total = $value;
+                            $total += $value;
                             $angka_format = number_format($total,0,",",".");
                             echo "<tr><td>".$no++."</td>";
                             echo "<td style='text-align:center;'>May</td>";
@@ -474,7 +474,7 @@
                           $total - null;
                           foreach($monthrev_jun as $d){ 
                             $value = $d->jun;
-                            $total = $value;
+                            $total += $value;
                             $angka_format = number_format($total,0,",",".");
                             echo "<tr><td>".$no++."</td>";
                             echo "<td style='text-align:center;'>June</td>";
@@ -486,7 +486,7 @@
                           $total - null;
                           foreach($monthrev_jul as $d){ 
                             $value = $d->jul;
-                            $total = $value;
+                            $total += $value;
                             $angka_format = number_format($total,0,",",".");
                             echo "<tr><td>".$no++."</td>";
                             echo "<td style='text-align:center;'>July</td>";
@@ -498,7 +498,7 @@
                           $total - null;
                           foreach($monthrev_aug as $d){ 
                             $value = $d->aug;
-                            $total = $value;
+                            $total += $value;
                             $angka_format = number_format($total,0,",",".");
                             echo "<tr><td>".$no++."</td>";
                             echo "<td style='text-align:center;'>August</td>";
@@ -510,7 +510,7 @@
                           $total - null;
                           foreach($monthrev_sept as $d){ 
                             $value = $d->sept;
-                            $total = $value;
+                            $total += $value;
                             $angka_format = number_format($total,0,",",".");
                             echo "<tr><td>".$no++."</td>";
                             echo "<td style='text-align:center;'>September</td>";
@@ -522,7 +522,7 @@
                           $total - null;
                           foreach($monthrev_oct as $d){ 
                             $value = $d->oct;
-                            $total = $value;
+                            $total += $value;
                             $angka_format = number_format($total,0,",",".");
                             echo "<tr><td>".$no++."</td>";
                             echo "<td style='text-align:center;'>October</td>";
@@ -534,7 +534,7 @@
                           $total - null;
                           foreach($monthrev_nov as $d){ 
                             $value = $d->nov;
-                            $total = $value;
+                            $total += $value;
                             $angka_format = number_format($total,0,",",".");
                             echo "<tr><td>".$no++."</td>";
                             echo "<td style='text-align:center;'>November</td>";
@@ -546,7 +546,7 @@
                           $total - null;
                           foreach($monthrev_des as $d){ 
                             $value = $d->des;
-                            $total = $value;
+                            $total += $value;
                             $angka_format = number_format($total,0,",",".");
                             echo "<tr><td>".$no++."</td>";
                             echo "<td style='text-align:center;'>Desember</td>";
@@ -575,7 +575,7 @@
                             foreach ($hasil6 as $item)
                             {
                               $total =$item->tambah;
-                              $value = $total;
+                              $value += $total;
                               if($total <= 1000000000){
                               $potong_angka = substr($value,0,5);
                               $angka_format = number_format($potong_angka,0,",",".");
@@ -601,7 +601,7 @@
                             foreach ($hasil7 as $item)
                             {
                               $total =$item->tambah;
-                              $value = $total;
+                              $value += $total;
                               if($total <= 1000000000){
                               $potong_angka = substr($value,0,5);
                               $angka_format = number_format($potong_angka,0,",",".");
@@ -634,7 +634,7 @@
                     if (count($topca)>0) {
                     foreach ($topca as $data) {
                       $value=$data->Total_ADJ_CACL;
-                      $total = $value;
+                      $total += $value;
                       $angka_format = number_format($total,0,",",".");
                     ?>
                     <li class="collection-item">
@@ -686,7 +686,7 @@
                     if (count($topcl)>0) {
                     foreach ($topcl as $data) {
                       $value=$data->Total_ADJ_CACL;
-                      $total = $value;
+                      $total += $value;
                       $angka_format = number_format($total,0,",",".");
                     ?>
                     <li class="collection-item">
