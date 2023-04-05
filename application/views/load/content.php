@@ -72,7 +72,7 @@
                             foreach ($hasil3 as $item)
                             {
                               $total =$item->tambah;
-                              $value = $total;
+                              $value += $total;
                               if($total <= 1000000000){
                               $potong_angka = substr($value,0,5);
                               $angka_format = number_format($potong_angka,0,",",".");
@@ -103,7 +103,7 @@
                             foreach ($hasil4 as $item)
                             {
                               $total =$item->tambah;
-                              $value = $total;
+                              $value += $total;
                               if($total <= 1000000000){
                               $potong_angka = substr($value,0,5);
                               $angka_format = number_format($potong_angka,0,",",".");
@@ -136,7 +136,7 @@
                             foreach ($hasil5 as $item)
                             {
                               $total =$item->tambah;
-                              $value = $total;
+                              $value += $total;
                               if($total <= 1000000000){
                               $potong_angka = substr($value,0,5);
                               $angka_format = number_format($potong_angka,0,",",".");
@@ -185,7 +185,7 @@
                           $total - null;
                           foreach($graph1_dbs as $d){ 
                             $value = $d->dbs;
-                            $total = $value;
+                            $total += $value;
                             $angka_format = number_format($total,0,",",".");
                             echo "<tr><td>".$no++."</td>";
                             echo "<td style='text-align:center;'>DBS</td>";
@@ -197,7 +197,7 @@
                           $total - null;
                           foreach($graph1_des as $d){ 
                             $value = $d->des;
-                            $total = $value;
+                            $total += $value;
                             $angka_format = number_format($total,0,",",".");
                             echo "<tr><td>".$no++."</td>";
                             echo "<td style='text-align:center;'>DES</td>";
@@ -209,7 +209,7 @@
                           $total - null;
                           foreach($graph1_dgs as $d){ 
                             $value = $d->dgs;
-                            $total = $value;
+                            $total += $value;
                             $angka_format = number_format($total,0,",",".");
                             echo "<tr><td>".$no++."</td>";
                             echo "<td style='text-align:center;'>DGS</td>";
@@ -222,7 +222,7 @@
                           $total - null;
                           foreach($graph1_reg1 as $d){ 
                             $value = $d->reg1;
-                            $total = $value;
+                            $total += $value;
                             $angka_format = number_format($total,0,",",".");
                             echo "<tr><td>".$no++."</td>";
                             echo "<td style='text-align:center;'>REG 1</td>";
@@ -234,7 +234,7 @@
                           $total - null;
                           foreach($graph1_reg2 as $d){ 
                             $value = $d->reg2;
-                            $total = $value;
+                            $total += $value;
                             $angka_format = number_format($total,0,",",".");
                             echo "<tr><td>".$no++."</td>";
                             echo "<td style='text-align:center;'>REG 2</td>";
@@ -246,7 +246,7 @@
                           $total - null;
                           foreach($graph1_reg3 as $d){ 
                             $value = $d->reg3;
-                            $total = $value;
+                            $total += $value;
                             $angka_format = number_format($total,0,",",".");
                             echo "<tr><td>".$no++."</td>";
                             echo "<td style='text-align:center;'>REG 3</td>";
@@ -258,7 +258,7 @@
                           $total - null;
                           foreach($graph1_reg4 as $d){ 
                             $value = $d->reg4;
-                            $total = $value;
+                            $total += $value;
                             $angka_format = number_format($total,0,",",".");
                             echo "<tr><td>".$no++."</td>";
                             echo "<td style='text-align:center;'>REG 4</td>";
@@ -270,7 +270,7 @@
                           $total - null;
                           foreach($graph1_reg5 as $d){ 
                             $value = $d->reg5;
-                            $total = $value;
+                            $total += $value;
                             $angka_format = number_format($total,0,",",".");
                             echo "<tr><td>".$no++."</td>";
                             echo "<td style='text-align:center;'>REG 5</td>";
@@ -282,7 +282,7 @@
                           $total - null;
                           foreach($graph1_reg6 as $d){ 
                             $value = $d->reg6;
-                            $total = $value;
+                            $total += $value;
                             $angka_format = number_format($total,0,",",".");
                             echo "<tr><td>".$no++."</td>";
                             echo "<td style='text-align:center;'>REG 6</td>";
@@ -294,7 +294,7 @@
                           $total - null;
                           foreach($graph1_reg7 as $d){ 
                             $value = $d->reg7;
-                            $total = $value;
+                            $total += $value;
                             $angka_format = number_format($total,0,",",".");
                             echo "<tr><td>".$no++."</td>";
                             echo "<td style='text-align:center;'>REG 7</td>";
@@ -306,7 +306,7 @@
                           $total - null;
                           foreach($graph1_sda as $d){ 
                             $value = $d->sda;
-                            $total = $value;
+                            $total += $value;
                             $angka_format = number_format($total,0,",",".");
                             echo "<tr><td>".$no++."</td>";
                             echo "<td style='text-align:center;'>SDA</td>";
