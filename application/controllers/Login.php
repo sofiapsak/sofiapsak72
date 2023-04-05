@@ -11,7 +11,7 @@ class Login extends CI_Controller{
 
   function auth(){
     $email    = $this->input->post('email',TRUE);
-    $password = password_verify($this->input->post('password',TRUE));
+    $password = md5($this->input->post('password',TRUE));
     $validate = $this->home_model->validate($email,$password);
     if($validate->num_rows() > 0){
         $data  = $validate->row_array();

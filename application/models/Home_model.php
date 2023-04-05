@@ -17,7 +17,7 @@ class Home_model extends CI_Model {
       {
           $data_user = array(
               'user_name'=>$username,
-              'user_password'=>password_hash($password,PASSWORD_DEFAULT),
+              'user_password'=>md5($password,PASSWORD_DEFAULT),
               'user_email'=>$user_email,
               'user_level'=>$level
           );
