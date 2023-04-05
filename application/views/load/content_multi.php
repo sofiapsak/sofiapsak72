@@ -41,7 +41,7 @@
                             foreach ($hasil2_multi as $item)
                             {
                               $total=$item->multi;
-                              $value = $total;
+                              $value += $total;
                               if($total <= 1000000000){
                               $potong_angka = substr($value,0,5);
                               $angka_format = number_format($potong_angka,0,",",".");
@@ -71,7 +71,7 @@
                             foreach ($hasil3_multi as $item)
                             {
                               $total=$item->multi;
-                              $value = $total;
+                              $value += $total;
                               if($total <= 1000000000){
                               $potong_angka = substr($value,0,5);
                               $angka_format = number_format($potong_angka,0,",",".");
@@ -102,7 +102,7 @@
                             foreach ($hasil4_multi as $item)
                             {
                               $total=$item->multi;
-                              $value = $total;
+                              $value += $total;
                               if($total <= 1000000000){
                               $potong_angka = substr($value,0,5);
                               $angka_format = number_format($potong_angka,0,",",".");
@@ -135,7 +135,7 @@
                             foreach ($hasil5_multi as $item)
                             {
                               $total=$item->multi;
-                              $value = $total;
+                              $value += $total;
                               if($total <= 1000000000){
                               $potong_angka = substr($value,0,5);
                               $angka_format = number_format($potong_angka,0,",",".");
@@ -241,7 +241,7 @@
                           foreach ($hasil_multi as $item)
                           {
                             $total=$item->multi;
-                            $col6_3 = $total;
+                            $col6_3 += $total;
                             $angka_format = number_format($col6_3,0,",",".");
                             echo "$angka_format";
                           }
@@ -471,7 +471,7 @@
                             foreach ($hasil6_multi as $item)
                             {
                               $total=$item->tambah;
-                              $value = $total;
+                              $value += $total;
                               if($total <= 1000000000){
                               $potong_angka = substr($value,0,5);
                               $angka_format = number_format($potong_angka,0,",",".");
@@ -497,7 +497,7 @@
                             foreach ($hasil7_multi as $item)
                             {
                               $total=$item->tambah;
-                              $value = $total;
+                              $value += $total;
                               if($total <= 1000000000){
                               $potong_angka = substr($value,0,5);
                               $angka_format = number_format($potong_angka,0,",",".");
