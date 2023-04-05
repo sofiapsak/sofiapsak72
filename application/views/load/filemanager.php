@@ -47,7 +47,7 @@
     <hr>
     <br>
         <!-- Add File Button -->
-        <form action="../../BDO/Application/views/python.php" id="upload_data"> 
+        <form action="../../application/views/python.php" id="upload_data"> 
           <button class="add-file-btn btn waves-effect waves-light mb-2 right" style="margin-top:10px;">
             <i class="material-icons">cloud_upload</i>
             <span>Upload File to Database</span>

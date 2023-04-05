@@ -19,7 +19,7 @@ else
 
 	<?php require('load/content_login.php');?>
 
-	<!--<script src="?= base_url('Application/views/vendors/scripts/dashboard.js');?"></script>-->
+	<!--<script src="?= base_url('application/views/vendors/scripts/dashboard.js');?"></script>-->
 	
 	</body>
 

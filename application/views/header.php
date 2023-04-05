@@ -23,7 +23,7 @@
 					<a class="btn btn-info" href="<?php echo base_url('home/multiple_spreadsheet');?>"
 						target="_blank">Download Excel Data</a>
 
-					<form method="post" action="../../BDO/Application/views/python.php" enctype="multipart/form-data">
+					<form method="post" action="../../BDO/application/views/python.php" enctype="multipart/form-data">
 
 						<b><input type="submit" name="submit" value="Import To Database" class="btn btn-primary"></b>
 

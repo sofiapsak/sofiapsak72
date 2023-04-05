@@ -1,11 +1,11 @@
  <!-- BEGIN: SideNav-->
  <aside class="sidenav-main nav-expanded nav-lock nav-collapsible sidenav-dark sidenav-active-rounded">
       <div class="brand-sidebar">
-        <h1 class="logo-wrapper"><a class="brand-logo darken-1" href="<?= base_url('../BDO/home/');?>"><img class="hide-on-med-and-down " src="<?= base_url('Application/views/vendor/BDO_logo1.png');?>" style="margin-left:-5px;margin-bottom:-1px;" alt="materialize logo"><img class="show-on-medium-and-down hide-on-med-and-up" src="<?= base_url('Application/views/vendor/BDO_logo.png');?>" alt="materialize logo"><span class="logo-text hide-on-med-and-down"></span></a><a class="navbar-toggler" href="#"><i class="material-icons">radio_button_checked</i></a></h1>
+        <h1 class="logo-wrapper"><a class="brand-logo darken-1" href="<?= base_url('home/');?>"><img class="hide-on-med-and-down " src="<?= base_url('application/views/vendor/BDO_logo1.png');?>" style="margin-left:-5px;margin-bottom:-1px;" alt="materialize logo"><img class="show-on-medium-and-down hide-on-med-and-up" src="<?= base_url('application/views/vendor/BDO_logo.png');?>" alt="materialize logo"><span class="logo-text hide-on-med-and-down"></span></a><a class="navbar-toggler" href="#"><i class="material-icons">radio_button_checked</i></a></h1>
       </div>
       <ul class="sidenav sidenav-collapsible leftside-navigation collapsible sidenav-fixed menu-shadow" id="slide-out" data-menu="menu-navigation" data-collapsible="accordion">
         
-        <li class="active bold"><a class="waves-effect waves-cyan active" href="<?= base_url('../BDO/home');?>"><i class="material-icons">settings_input_svideo</i><span class="menu-title" data-i18n="Mail">Dashboard</span></a>
+        <li class="active bold"><a class="waves-effect waves-cyan active" href="<?= base_url('home');?>"><i class="material-icons">settings_input_svideo</i><span class="menu-title" data-i18n="Mail">Dashboard</span></a>
         </li>
         <li class="navigation-header"><a class="navigation-header-text">5 Step Model Assessment</a><i class="navigation-header-icon material-icons">more_horiz</i>
         </li>

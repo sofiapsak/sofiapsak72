@@ -34,7 +34,7 @@
     <link rel="stylesheet" type="text/css" href="<?= base_url('app-assets/css/custom/custom.css');?>">
     <!-- END: Custom CSS-->
     
-	<link rel="stylesheet" type="text/css" href="<?= base_url('Application/views/vendors/styles/fixhead.css');?>">
+	<link rel="stylesheet" type="text/css" href="<?= base_url('application/views/vendors/styles/fixhead.css');?>">
 	
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-119386393-1"></script>
@@ -42,7 +42,7 @@
 	<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.js">
 	</script>
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
-	<script type="text/javascript" src="<?= base_url('Application/views/vendors/scripts/script-pop-up.js');?>"></script>
+	<script type="text/javascript" src="<?= base_url('application/views/vendors/scripts/script-pop-up.js');?>"></script>
 	<script language="javascript">
     if(screen.width>=1000) {document.write("<style>body{font-family:Trebuchet MS;}.table-responsive{zoom:100%;}.row{zoom:85%;}.pull-left{zoom:85%;}</style>");}
    </script> 
