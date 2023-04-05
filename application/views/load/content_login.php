@@ -9,7 +9,7 @@
       <div class="col s12">
         <div class="container">  
           <div class="row center">        
-          <img class="hide-on-med-and-down center" src="<?= base_url('Application/views/vendor/BDO_logo.png');?>" style="margin-bottom:-130px;" alt="materialize logo" width="110" height="40">
+          <img class="hide-on-med-and-down center" src="<?= base_url('application/views/vendor/BDO_logo.png');?>" style="margin-bottom:-130px;" alt="materialize logo" width="110" height="40">
           </div>
 <div id="login-page" class="row" style="color:black;">
   <div class="col s12 m6 l4 z-depth-4 border-radius-6" style="background-color:rgba(255, 255, 255, 0.8);;margin-left:0px;">
